@@ -1,0 +1,245 @@
+/* Google Font*/
+@import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+  font-family: "Azeret Mono", monospace;
+}
+
+/* Basic */
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+h1,h2,h3,h4{
+    margin: 0;
+     line-height: 1.4;
+     font-weight: 800;
+}
+h1{
+    font-size: 46px;
+}
+h2{
+    font-size: 30px;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    line-height: 1.8;
+    font-size: 18px;
+}
+
+/* Nav */
+header .taitan{
+    display: flex;
+    height: 109px;
+    align-items: center;
+    justify-content: space-between;
+}
+#majic-area{
+    background:url("../assets/Hero-bg.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding:39px 0;
+}
+/*majic */
+#majic-area .majic-content{
+    width: 1000px;
+    margin: auto;
+    text-align: center;
+}
+#majic-area .majic-content img{
+    width: 170px;
+    margin-bottom: 49px;
+}
+#majic-area .majic-content p{
+    margin: 36px 0;
+}
+/* Components */
+.contain{
+    margin: auto;
+    max-width: 1139px;
+    
+}
+.btn{
+    font-size: 19px;
+    padding: 18px 25px;
+    background: transparent;
+    border-radius: 7px;
+    border: 1px solid rgb(14, 20, 34);
+    cursor: pointer;
+}
+.style-2{
+    color: #f3eded;
+    background: #0c0c0c;
+    
+}
+.section-majic-text{
+    width: 850px;
+    margin-bottom: 49px;
+    text-align: center;
+    
+}
+.it-center{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.op-66{
+    margin-bottom: 79px;
+
+}
+
+/* section-2  */
+#maku{
+    padding: 70px 0;
+}
+#maku .container{
+    padding: 79px 96px;
+    background-color: #fafafb;
+    
+}
+#maku .section-hero-text{
+    margin-bottom: 33px;
+}
+#maku .single-it{
+    margin: 17px 0;
+    padding: 50px;
+    display: flex;
+    background: linear-gradient(89deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    align-items: center;
+    border-radius: 17px;
+    gap: 100px;
+    
+}
+#maku .single-it:nth-child(2){
+    background: linear-gradient(269deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+}
+#maku .single-it .it-img img{
+    width: 260px;
+}
+#maku .single-it .it-text{
+    width: 480px;
+}
+/* end*/
+
+
+/* gitback section  */
+
+
+#current-gitback .gp-gitback-content{
+    display: flex;
+    gap: 23px;
+}
+#current-gitback .gp-gitback-it img{
+    height: 55px;
+    width: 55px;
+    margin-bottom: 29px;
+    object-fit: contain;
+}
+#current-gitback .gp-gitback-content .gp-gitback-it{
+    background-color: red;
+    padding: 39px;
+    border-radius: 16px;
+    
+}
+#current-gitback .gp-gitback-it:first-child{
+    background: rgba(255, 76, 30, 0.05);
+}
+#current-gitback .gp-gitback-it:nth-child(2){
+    background: rgba(0, 76, 232, 0.05);     
+}
+#current-gitback .gp-gitback-it:last-child{
+    background: rgba(255, 223, 0, 0.05);
+}
+#next-gitback .gt-gitback-it img{
+    width: 144px;
+    height: auto;
+    overflow: hidden;
+    object-fit: contain;
+    
+}
+
+
+#next-gitback .gt-gitback-it{
+    padding: 41px;
+    display: flex;
+    margin: 25px 0;
+    gap: 29px;
+    justify-content: center;
+    border-radius: 16px;
+    border: 1px solid rgba(13, 19, 33, 0.15);;
+    
+    
+}
+
+#current-gitback .gp-gitback-it a, #next-gitback a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 601;
+    border-bottom: 1px solid;
+    
+    
+}
+
+
+#video .taitan{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+#video .video-area iframe{
+    width: 1077px;
+    height: 609px;
+    padding: 20px;
+    overflow: hidden;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px!important;
+    
+    
+}
+/* Footer */
+.foot-main .taitan{
+    color: #fff;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5) 100%),url("../assets/handshake.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 14px;
+}
+.foot-main .foot-content{
+    padding:65px 39px;
+}
+.foot-main form{
+    margin-top: 19px;
+}
+.foot-main .taitan input{
+    padding: 16px;
+    border-radius: 11px;
+    border: none;
+    outline:none;
+    
+    
+}
+.foot-main .taitan input[type="email"]{
+    width: 449px;
+}
+.foot-copy{
+    padding: 14px 0;
+    background-color: #f7f8f8;
+}
+.foot-copy .taitan{
+    align-items:center;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.foot-copy .social-area img{
+    width: 38px;
+    height: 38px;
+    object-fit: contain;
+    overflow: hidden;
+}
